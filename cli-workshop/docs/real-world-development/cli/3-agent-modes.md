@@ -13,7 +13,7 @@ Pierwsza zmiana była mała. Przy większych potrzebny jest porządniejszy proce
 
 W tej lekcji:
 
-- rozpoczniesz nową rozmowę z Copilotem, wychodząc od zgłoszenia na GitHubie,
+- rozpoczniesz nową rozmowę z Copilotem, zaczynając od zgłoszenia na GitHubie,
 - zdefiniujesz wymagania w trybie Plan,
 - zaimplementujesz nową funkcjonalność w trybie Autopilot,
 - przejrzysz kod,
@@ -23,16 +23,16 @@ W kolejnych lekcjach, na tej samej funkcjonalności, zaktualizujesz instrukcje r
 
 ## Scenariusz
 
-Katalog Tailspin Toys rośnie i odwiedzający chcą zawężać listę gier po kategorii i wydawcy. Zgłoszenie w backlogu opisuje tę funkcjonalność, ale szczegóły, na przykład łączenie kategorii, trzeba ustalić przed kodowaniem. Zrobisz to w trybie Plan, a implementację zlecisz Autopilotowi.
+Katalog Tailspin Toys rośnie i odwiedzający chcą zawęzić listę gier po kategorii i wydawcy. Zgłoszenie w backlogu opisuje tę funkcjonalność, ale szczegóły, na przykład łączenie kategorii, trzeba ustalić przed kodowaniem. Zrobisz to w trybie Plan, a implementację zlecisz Autopilotowi.
 
 ## Kontekst
 
 Agenci AI nie zmieniają podstaw procesu, raczej czynią go ważniejszym. Większość zespołów pracuje mniej więcej tak:
 
-1. Wyjście od zgłoszenia opisującego, co trzeba zrobić.
+1. Sprawdzenie, co trzeba zrobić, w oparciu o zgłoszenie.
 2. Stworzenie planu tego, co trzeba zbudować.
 3. Zbudowanie kodu i jego przegląd.
-4. Uruchomienie testów w celu weryfikacji kodu.
+4. Uruchomienie testów w celu weryfikacji rozwiązania.
 5. Ręczna weryfikacja nowej funkcjonalności.
 6. Utworzenie pull requesta (PR).
 7. Merge po przejściu code review i procesu ciągłej integracji.
@@ -49,12 +49,12 @@ Szczegóły różnią się między zespołami, ale schemat jest ten sam. Jeśli 
 
 Zacznij w trybie Plan, przejrzyj plan, a potem użyj Autopilota do jego wdrożenia.
 
-## Wyjdź od zgłoszenia
+## Zacznij od zgłoszenia
 
 Zanim zaczniesz pracę nad filtrowaniem, wróć do codespace'a i upewnij się, że repozytorium i terminal są gotowe.
 
 1. Wróć do swojego codespace'a. Jeśli jest zatrzymany, uruchom go ponownie.
-2. Potwierdź, że PR z ocenami w gwiazdkach został zmergowany.
+2. Upewnij się, że PR z ocenami w gwiazdkach został zmergowany.
 3. Jeśli terminal nie jest otwarty, naciśnij <kbd>Control</kbd>+<kbd>\`</kbd> (Mac) albo <kbd>Ctrl</kbd>+<kbd>\`</kbd> (Windows/Linux).
 4. Zaktualizuj `main`, a potem utwórz gałąź na pracę nad filtrowaniem:
 
