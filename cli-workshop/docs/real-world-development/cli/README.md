@@ -13,15 +13,15 @@ Warsztat to jeden ciąg zadań na projekcie Tailspin Toys:
 
 1. Przygotujesz projekt w GitHub Codespaces, zainstalujesz Copilot CLI i zorientujesz się w terenie.
 2. Wprowadzisz niewielką zmianę z ocenami w gwiazdkach, obejrzysz ją w przeglądarce i ręcznie zmergujesz swojego pierwszego pull requesta (PR).
-3. Wyjdziesz od zgłoszenia o filtrowaniu, ustalisz podejście w trybie Plan, zbudujesz je w trybie Autopilot, a potem przejrzysz w trybie interaktywnym.
-4. Zaktualizujesz instrukcje repozytorium i zastosujesz je do pracy nad filtrowaniem.
+3. Zaczniesz od zgłoszenia o filtrowaniu, zaplanujesz podejście w trybie Plan, zbudujesz je w trybie Autopilot, a potem przejrzysz w trybie interaktywnym.
+4. Zaktualizujesz instrukcje repozytorium i zastosujesz je w pracy nad filtrowaniem.
 5. Dostosujesz istniejący skill `quality-checks` i użyjesz go do uruchomienia kontroli w projekcie.
-6. Dodasz serwer Playwright Model Context Protocol (MCP) i sprawdzisz nim filtrowanie w przeglądarce.
-7. Stworzysz własnego agenta do kontroli jakości (QA) i przejrzysz nim wymagania, pokrycie i dowody weryfikacji.
-8. Przejrzysz całą zmianę z filtrowaniem i użyjesz Agent Merge do jej pull requesta.
-9. Poznasz przydatne komendy slash do kontekstu, modeli, udostępniania i opcjonalnego delegowania do chmury.
+6. Dodasz serwer Playwright Model Context Protocol (MCP) i przetestujesz przy jego pomocy filtrowanie w przeglądarce.
+7. Stworzysz własnego agenta do kontroli jakości (QA) i wykorzystasz go do sprawdzenia wymagań, pokrycia testami i weryfikacji wyników.
+8. Przejrzysz całą zmianę z filtrowaniem i użyjesz agneta Agent Merge do przygotowania pull requesta.
+9. Poznasz przydatne komendy copilota do kontekstu, modeli, udostępniania i opcjonalnego delegowania do chmury.
 
-Po drodze otworzysz dwa pull requesty. Pierwszy, mały, z ocenami w gwiazdkach. Drugi z filtrowaniem i wszystkim, co wokół niego powstanie: zmianą instrukcji, skilla, profilem QA i testami. Nad filtrowaniem pracujesz cały czas w jednej rozmowie i na jednej gałęzi, więc każda kolejna lekcja korzysta z tego, co zrobiłeś w poprzedniej.
+Po drodze przygotujesz dwa pull requesty. Pierwszy, mały, z ocenami w gwiazdkach. Drugi z filtrowaniem i wszystkim, co wokół niego powstanie: zmianą instrukcji, skilla, profilem QA i testami. Nad filtrowaniem pracujesz cały czas w ramach tego samego chatu i na jednej gałęzi, więc każda kolejna lekcja korzysta z tego, co zrobiłeś w poprzedniej.
 
 ## Lekcje
 
@@ -43,7 +43,7 @@ Po drodze otworzysz dwa pull requesty. Pierwszy, mały, z ocenami w gwiazdkach. 
 
 Zanim zaczniesz warsztat, upewnij się, że masz:
 
-- [ ] Konto GitHub z aktywnym planem **Copilot Student, Pro, Pro+, Business albo Enterprise**
+- [ ] Konto GitHub z aktywnym dowolnym planem **Copilot Free, Copilot Student, Pro, Pro+, Business albo Enterprise**
 - [ ] Uprawnienia do utworzenia repozytorium i codespace'a
 - [ ] Podstawową znajomość pracy w terminalu
 
